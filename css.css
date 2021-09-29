@@ -1,0 +1,183 @@
+body{
+    background-color: black;
+    color: white;
+}
+
+.right-top-wrapper{
+    display: flex;
+}
+
+.right-top-wrapper > .top-content-wrapper{
+    display: flex;
+    justify-content: center;
+}
+
+.right-top-wrapper > .top-content-wrapper > .search-bar {
+    color: lightgray;
+    margin-top: 20px;
+    margin-left: 15px;
+}
+
+.right-top-wrapper > .top-content-wrapper > .search-bar input {
+    width: 1500px;
+    height: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2rem;
+    border-radius: 10px;
+    background-color: rgb(50, 50, 50);
+    color: inherit;
+    border: none;
+}
+
+.right-top-wrapper > .top-content-wrapper > .search-bar input:focus{
+    text-decoration: none;
+    outline: none;
+}
+
+.right-top-wrapper > .top-content-wrapper > .nav-btn{
+    margin: 20px 15px;
+}
+
+.right-top-wrapper > .top-content-wrapper > .nav-btn button {
+    height: 50px;
+    width: 90px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.3em;
+    background-color: rgb(16, 128, 62);
+    border-radius: 5px;
+    border: 2px black;
+}
+
+.right-top-wrapper > .top-content-wrapper > .search-bar > .content-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: left;
+}
+
+.right-top-wrapper > .top-content-wrapper > .search-bar > .content-wrapper > .login-info{
+    display: flex;
+    flex-direction: column;
+    margin: 150px;
+}
+
+.right-top-wrapper > .top-content-wrapper > .search-bar > .content-wrapper > .login-info img{
+    width: 230px;
+    opacity: 0.5;
+}
+
+.right-top-wrapper > .top-content-wrapper > .search-bar > .content-wrapper > .login-info input{
+    width: 500px;
+    background-color: white;
+    border-radius: 2px;
+}
+
+.right-top-wrapper > .top-content-wrapper > .search-bar > .content-wrapper > .login-info button{
+    width: 506px;
+    background-color: rgb(16, 128, 62);
+    border-radius: 2px;
+    height: 52px;
+    font-size: 1.2em;
+    margin-top: 20px;
+    border: none;
+}
+
+.right-top-wrapper > .top-content-wrapper > .search-bar > .content-wrapper > .login-info a{
+    text-decoration: none;
+    color: teal;
+    text-align: center;
+}
+
+.right-top-wrapper > .right-column{
+display: flex;
+flex-direction: column;
+width: 250px;
+height: 880px;
+background-color: rgb(30, 30, 30);
+margin-top:20px ;
+border-radius: 3px;
+}
+
+.right-top-wrapper > .right-column > .logo img {
+    width: 230px;
+    margin:5px 10px;
+    margin-bottom: 20px;
+}
+
+.right-top-wrapper > .right-column > .right-column-text {
+    margin-left: 15px;
+}
+
+.right-top-wrapper > .right-column > .right-column-text > .first-segment > .first-segment-text{
+    text-align: center;
+    font-size: 0.85em;
+    opacity: 0.5;
+    font-weight: 100;
+    margin-bottom: -10px;
+}
+
+.right-top-wrapper > .right-column > .right-column-text > .first-segment > .btn{
+    text-align: center;
+    background-image: linear-gradient(to left, violet, indigo, blue, green, yellow,  orange, red);
+    height: 100px;
+    width: 220px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.right-top-wrapper > .right-column > .right-column-text > .first-segment > .btn button{
+    background-color: black;
+    color: white;
+    height: 90px;
+    width: 210px;
+    font-size: 1.8em;
+    border-radius: 8px;
+    border-width:1px ;
+    margin-top: 5px;
+    border-bottom: 5px black;
+}
+
+.right-top-wrapper > .right-column > .right-column-text > .first-segment > .btn a{
+    text-decoration: none;
+    color: white;
+    padding: 30px 17px;
+}
+
+.right-top-wrapper > .right-column > .right-column-text > .second-segment {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    padding: 5px 15px 25px 0px;
+    border-top: 4px solid rgb(0, 128, 100);
+    border-bottom: 4px solid rgb(170, 145, 3);
+}
+
+.right-top-wrapper > .right-column > .right-column-text > .second-segment a{
+    height: 40px;
+    text-decoration: none;
+    color: white;
+}
+
+.right-top-wrapper > .right-column > .right-column-text > .third-segment {
+    display: flex;
+    height: 54px;
+}
+
+.right-top-wrapper > .right-column > .right-column-text > .third-segment :nth-child(2){
+    font-size: 0.8rem;
+    color: black;
+    text-align: top;
+    padding: 3px;
+    margin-left: 5px;
+    background-color: gold;
+    border-radius: 3px;
+}
+
+.right-top-wrapper > .right-column > .right-column-text > .fourth-segment button img {
+    width: 200px;
+    height: 200px;
+}
+
+.right-top-wrapper > .right-column > .right-column-text > .fifth-segment{
+    opacity: 0.2;
+    line-height: 30px;
+}
